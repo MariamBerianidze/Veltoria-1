@@ -11,13 +11,12 @@
     font-family: Montserrat-Regular;
     font-weight: 400px;
 }
-.background{
+.index{
     background-image: url(../img/2560_aska_shop\ 1.png);
     background-repeat: no-repeat;
     width: 100%;
-    background-size: cover;
-    height: 1080px;
-    width: 1920px;
+    background-size: 100%;
+    height: 120vh;
 }
 .flex{
     display: flex;
@@ -53,7 +52,7 @@ align-items: center;
 .info h2{
     color: #fff;
     font-size: 72px;
-    padding: 276px 0 12px 0;
+    padding: 266px 0 12px 0;
 }
 .info p{
     color: #fff;
@@ -76,6 +75,7 @@ align-items: center;
     gap: 48px;
     padding: 76px 76px 166px 76px;
 }
+
 .photos{
    flex-direction: column;
    gap: 52px;
@@ -96,6 +96,7 @@ font-size: 40px;
     display: flex;
     padding: 66px 280px 2px 290px;
     width: 100%;
+    background-color: aqua;
 }
 .card{
     position: relative;
@@ -178,6 +179,10 @@ justify-content: space-between;
 gap: 34px;
 }
  /* ============VIP STYLES====================== */
+ .vip .navigation h1 a,
+ .vip .navigation ul a{
+color: #000;
+ }
 .reservation{
     width:1920px;
     text-align: center;
