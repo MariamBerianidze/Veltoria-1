@@ -15,8 +15,8 @@
     background-image: url(../img/2560_aska_shop\ 1.png);
     background-repeat: no-repeat;
     width: 100%;
-    background-size: 100%;
-    height: 120vh;
+    background-size: cover;
+    height: 100vh;
 }
 .flex{
     display: flex;
@@ -70,9 +70,10 @@ align-items: center;
 }
 .photo{
     display: flex;
-    background-color: #fff;
+    margin-top: 176px;
     justify-content: space-between;
     gap: 48px;
+    justify-content: space-around;
     padding: 76px 76px 166px 76px;
 }
 
@@ -94,12 +95,16 @@ font-size: 40px;
 }
 .menu{
     display: flex;
-    padding: 66px 280px 2px 290px;
+    /* padding: 66px 280px 2px 290px; */
     width: 100%;
-    background-color: aqua;
+    flex-wrap: wrap;
+padding: 0 280px 0 332px;
+justify-content: space-between;
 }
 .card{
     position: relative;
+    width: 532px;
+    margin-bottom: 68px;
 }
 .text{
     position: absolute;
@@ -107,7 +112,7 @@ font-size: 40px;
     height: 100px;
     border: 1px solid rgba(242, 237, 237, 0.989);
     border-radius: 25px 25px;
-    top: 30px;
+    top: 34px;
     left: 140px;
     background-color: #fff;
     box-shadow: 0 5px 10px ;
@@ -131,10 +136,10 @@ font-size: 40px;
 ============================================= */
 footer{
   background-color: #000;
-  width: 1920px;
   height: 84px;
   align-content: center;
   align-items: center;
+  width: 1920;
 }
 .contact{
     display: flex;
@@ -146,7 +151,6 @@ footer{
 /* =============menu styles================= */
 header{
     padding: 28px 96px 0 72px; 
-    width: 1920px;
 }
 .mesame{
     background-color: #fff;
@@ -177,6 +181,70 @@ font-size: 50px;
 padding: 50px 216px 88px 270px;
 justify-content: space-between;
 gap: 34px;
+}
+.coctale{
+    width: 242px;
+    height: 328px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.coctale p{
+text-align: center;
+color: #fff;
+padding-top: 20px;
+background-color: rgba(255, 255, 255, 0.65);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+transition: 0.5s;
+}
+.coctale:hover p{
+    opacity: 1;
+}
+
+
+/* ==============================
+BOOK A TABLE STYLES
+======================================== */
+.data{
+    display: flex;
+    margin: 66px 576px 66px 576px;
+    gap: 26px;
+    height: 70px;
+}
+.date{
+    width: 340px;
+    border: 1px solid black;
+    box-shadow: -5px -3px 20px rgba(189, 185, 185, 1);
+    border-radius: 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+.time{
+   width: 340px;
+    border: 1px solid black;
+    box-shadow: -5px -3px 20px rgba(189, 185, 185, 1);
+    border-radius: 25px 25px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+.number{
+    width: 340px;
+    border: 1px solid black;
+    box-shadow: -5px -3px 20px rgba(189, 185, 185, 1);
+    border-radius: 25px 25px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
  /* ============VIP STYLES====================== */
  .vip .navigation h1 a,
