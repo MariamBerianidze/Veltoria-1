@@ -205,8 +205,98 @@ transition: 0.5s;
 .coctale:hover p{
     opacity: 1;
 }
-
-
+.wine{
+    width: 242px;
+    height: 328px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.wine p{
+ text-align: center;   
+ color: #fff;
+ padding-top: 20px;
+ background-color: rgba(255, 255, 255, 0.65);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+transition: 0.5s;
+}
+.wine:hover p{
+    opacity: 1;
+}
+.tequila{
+    width: 242px;
+    height: 328px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.tequila p{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5;
+}
+.tequila:hover p{
+    opacity: 1;
+}
+.vodka{
+    width: 242px;
+    height: 328px;
+    border-radius: 10px;
+    position:relative;
+    overflow: hidden;
+}
+.vodka p{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5;
+}
+.vodka:hover p{
+    opacity: 1;
+}
+.whiskey{
+   width: 242px;
+    height: 328px;
+    border-radius: 10px;
+    position:relative;
+    overflow: hidden; 
+}
+.whiskey p{
+   text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5; 
+}
+.whiskey:hover p{
+    opacity: 1;
+}
 /* ==============================
 BOOK A TABLE STYLES
 ======================================== */
@@ -214,10 +304,10 @@ BOOK A TABLE STYLES
     display: flex;
     margin: 66px 576px 66px 576px;
     gap: 26px;
-    height: 70px;
 }
 .date{
     width: 340px;
+    height: 70px;
     border: 1px solid black;
     box-shadow: -5px -3px 20px rgba(189, 185, 185, 1);
     border-radius: 25px 25px;
@@ -227,24 +317,102 @@ BOOK A TABLE STYLES
     font-size: 26px;
 }
 .time{
-   width: 340px;
+    width: 340px;
+    height: 70px;
     border: 1px solid black;
     box-shadow: -5px -3px 20px rgba(189, 185, 185, 1);
     border-radius: 25px 25px;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 26px;
 }
 .number{
     width: 340px;
+    height: 70px;
     border: 1px solid black;
     box-shadow: -5px -3px 20px rgba(189, 185, 185, 1);
     border-radius: 25px 25px;
-     display: flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 18px;
+}
+.calendar{
+    width: 846px;
+    height: 676px;
+    margin: 66px 536px 10px 536px;
+}
+.dro{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+.saati{
+    width: 230px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: -5px -3px 20px rgba(189, 185, 185, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;  
+    margin: 0 auto;
+}
+.raodenoba{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 6px;
+    margin-top: 66px;
+}
+.ricxvi{
+    width: 320px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: -5px -3px 20px rgba(189, 185, 185, 1);
+    display: flex;
+    align-items: center;
+    font-size: 26px;  
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.phone{
+  text-align: center;
+    font-size: 24px;
+    margin-bottom: 6px;
+    margin-top: 66px;  
+}
+.nomeri{
+   width: 320px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: -5px -3px 20px rgba(189, 185, 185, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;  
+    margin: 0 auto;
+    margin-bottom: 82px;
+}
+.meotxe{
+    width: 230px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;  
+    margin: 0 auto;
+    margin-bottom: 66px;
 }
  /* ============VIP STYLES====================== */
  .vip .navigation h1 a,
